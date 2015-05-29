@@ -1,4 +1,12 @@
-﻿body {
+﻿/*<!--main.css-->
+    <!--Author's name: Baljeet Kalsi-->
+    <!--Last Modified: Baljeet Kalsi-->
+    <!--Date last Modifie: May 29,2015-->
+    <!--Program description: Assignment1 -Dragon-->
+    <!--Revision History:https://github.com/baljeetkalsi1988/Assignment-1--The-Dragon-Baljeet-Kalsi-->
+    */
+
+body {
     background: #d5cea6; /* Old browsers */
     background: -moz-linear-gradient(top,  #d5cea6 0%, #c9c190 40%, #b7ad70 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5cea6), color-stop(40%,#c9c190), color-stop(100%,#b7ad70)); /* Chrome,Safari4+ */
