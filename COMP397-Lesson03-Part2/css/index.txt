@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Comp 397 Assignment 1 </title>
+    <!--Css Section--->
+   
+    <link href="CSS/reset.css" rel="stylesheet" />
+    <link href="CSS/main.css" rel="stylesheet" />
+</head>
+<body onload="init();">
+
+
+    <div id="impress">
+        <!--First slide-->
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <p>this is a time machine over ther</p>
+                <p><a href="#2">flip</a>it</p>
+                <p><a href="#3">wait </a>for the pizaa guy</p>
+                
+            </div>
+        </div>
+        <!--End of first slide-->
+
+        <!--Second slide-->
+        <div id="2" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>this 2 slide</p>
+                <p>lolit</p>
+                <p>completechutiyapa</p>
+
+                <div class="menu"><a href="#1">start over</a></div>
+            </div>
+        </div>
+        <!--End of first slide-->
+
+        <!--Second slide-->
+        <div id="3" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>this 3 slide</p>
+                <p>waited for dad  yeh kya hai</p>
+                <p>complete hutiyapa</p>
+
+                <div class="menu"><a href="#1">start over</a></div>
+            </div>
+        </div>
+        <!--End of first slide-->
+
+    </div>
+
+
+
+    <!--Javascript section-->
+    <script src="script/lib/impress.js"></script>
+
+    <script src="Scripts/game1.js"></script>
+    <script>impress().init();</script>
+</body>
+</html>
