@@ -25,6 +25,8 @@
     opacity: 1;
 }
 
+/*Styling for slides*/
+
 .slide {
     display: block;
     width: 700px;
@@ -46,6 +48,8 @@
     line-height: 45px;
 }
 
+/*Styling for slides <a> tag*/
+
 .slide a, .slide a:visited {
     color: #071549;
     text-decoration: none;
@@ -54,6 +58,8 @@
     border-radius: 5px;
     border: 1px solid #d5cea6;
 }
+
+/*Styling for slides <a> tag hover and active*/
 
 .slide a:hover, .slide a:active {
     background-color: #f2c76f;
